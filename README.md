@@ -1,1 +1,1 @@
-# sementic_segmentation_drone_imagesjcnvdnv
+# sementic_segmentation_drone_images
