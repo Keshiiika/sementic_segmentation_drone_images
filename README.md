@@ -2,11 +2,42 @@
 
 This repository contains an implementation of the U-Net architecture for semantic segmentation of drone images from the Semantic Drone Dataset. The project aims to segment various classes such as buildings, roads, trees, and vehicles from aerial images.
 
+The goal of semantic image segmentation is to label each pixel of an image with a corresponding class of what is being represented. Because we’re predicting for every pixel in the image, this task is commonly referred to as dense prediction.
+
+The expected output in semantic segmentation are not just labels and bounding box parameters. The output itself is a high resolution image (typically of the same size as input image) in which each pixel is classified to a particular class. Thus it is a pixel level image classification.
+
 ## Dataset
 
-The Semantic Drone Dataset consists of high-resolution aerial images captured by drones, along with their corresponding semantic segmentation masks. The dataset can be obtained from the following link:
+The dataset can be obtained from the following link:
 
 [Semantic Drone Dataset](https://www.kaggle.com/datasets/bulentsiyah/semantic-drone-dataset)
+
+The Semantic Drone Dataset focuses on enhancing the safety of autonomous drone navigation and landing procedures by emphasizing semantic comprehension of urban environments. The dataset comprises imagery showcasing over 20 houses captured from a bird's eye view at altitudes ranging from 5 to 30 meters above ground level. Images are obtained using a high-resolution camera, yielding a size of 6000x4000 pixels (24 megapixels). The training dataset encompasses 400 publicly accessible images, while the test dataset comprises 200 private images.
+
+For person detection, the dataset includes bounding box annotations for both the training and test sets. Additionally, pixel-accurate annotations are provided for semantic segmentation tasks for the same sets. The dataset's complexity is streamlined to 20 distinct classes, as outlined in Table 1 below.
+
+### Table 1: Semantic Classes of the Drone Dataset
+
+1. Tree
+2. Grass
+3. Other vegetation
+4. Dirt
+5. Gravel
+6. Rocks
+7. Water
+8. Paved area
+9. Pool
+10. Person
+11. Dog
+12. Car
+13. Bicycle
+14. Roof
+15. Wall
+16. Fence
+17. Fence pole
+18. Window
+19. Door
+20. Obstacle
 
 ## Requirements
 
@@ -25,8 +56,8 @@ The Semantic Drone Dataset consists of high-resolution aerial images captured by
 1. Clone the repository:
 
 bash
-git clone https://github.com/your-username/semantic-drone-segmentation.git
-cd semantic-drone-segmentation
+git clone https://github.com/Keshiiika/sementic_segmentation_drone_images.git
+cd semantic-segmentation-drone-images
 
 
 2. Download the Semantic Drone Dataset and place it in the appropriate directory.
