@@ -54,6 +54,8 @@ The trained model generates segmentation masks for the test images, which are sa
 Here are some example results:
 
 <p align="center">
+  ![results](https://github.com/Keshiiika/sementic_segmentation_drone_images/assets/121313188/15c10ef0-01eb-45e4-859c-37eaae3f8ddd)
+
   <img src="path/to/original_image.png" alt="Original Image" width="250">
   <img src="path/to/ground_truth_mask.png" alt="Ground Truth Mask" width="250">
   <img src="path/to/predicted_mask.png" alt="Predicted Mask" width="250">
