@@ -55,7 +55,9 @@ Here are some example results:
 
 <p align="center">
   ![all text](https://github.com/Keshiiika/sementic_segmentation_drone_images/blob/main/results.png)
-  <img src="path/to/original_image.png" alt="Original Image" width="250">
+  ![results](https://github.com/Keshiiika/sementic_segmentation_drone_images/assets/121313188/8095a838-f7e5-4fda-9625-45145f312903)
+
+  <img src="https://github.com/Keshiiika/sementic_segmentation_drone_images/blob/main/results.png" alt="Original Image" width="250">
   <img src="path/to/ground_truth_mask.png" alt="Ground Truth Mask" width="250">
   <img src="path/to/predicted_mask.png" alt="Predicted Mask" width="250">
 </p>
