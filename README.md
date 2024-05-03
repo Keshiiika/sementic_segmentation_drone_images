@@ -64,6 +64,16 @@ cd semantic-segmentation-drone-images
 
 3. Run the Jupyter Notebook semantic_segmentation.ipynb to preprocess the data, train the U-Net model, and generate segmentation masks.
 
+## Data Preprocessing
+
+To prepare the data for training, the following steps were performed:
+
+1. *Data Augmentation*: The original images were resized to 1536x1024 pixels while maintaining the aspect ratio. Data augmentation techniques, such as random cropping, horizontal flipping, and vertical flipping, were applied to increase the diversity of the training data and improve model generalization.
+
+2. *Dataset Split*: The augmented dataset was split into train, validation, and test sets, with an 80-10-10 ratio, respectively.
+
+3. *Dataset Pipeline*: A TensorFlow dataset pipeline was created to efficiently load and preprocess the images and masks during training. This included operations such as shuffling, mapping, batching, and prefetching.
+
 ## Model Architecture
 
 The U-Net architecture was used for this project, which is a popular choice for image segmentation tasks. The model consists of an encoder-decoder structure with skip connections between the encoder and decoder paths. The encoder path captures the context and spatial information from the input image, while the decoder path generates the segmentation masks.
@@ -79,10 +89,6 @@ The U-Net model was built using TensorFlow and Keras, with the following key com
 - *Output Layer*: The final layer uses a 1x1 convolution with softmax activation to produce the segmentation mask with the desired number of classes.
 
 The model architecture can be customized by modifying the number of filters and layers in the build_unet function.
-
-## Data Preprocessing
-
-The dataset is preprocessed using the augment_data function, which performs data augmentation techniques such as random cropping, horizontal flipping, and vertical flipping. The preprocessed images and masks are stored in the ./new_data directory.
 
 ## Training
 
