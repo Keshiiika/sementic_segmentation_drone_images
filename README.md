@@ -10,9 +10,11 @@ In semantic segmentation, the anticipated output transcends mere labels and boun
 
 The dataset can be obtained from the following link:
 
-[Semantic Drone Dataset](https://www.tugraz.at/index.php?id=22387)
+[Semantic Drone Dataset](http://dronedataset.icg.tugraz.at/)
 
+The Semantic Drone Dataset focuses on enhancing the safety of autonomous drone navigation and landing procedures by emphasizing semantic comprehension of urban environments. The dataset comprises imagery showcasing over 20 houses captured from a bird's eye view at altitudes ranging from 5 to 30 meters above ground level. Images are obtained using a high-resolution camera, yielding a size of 6000x4000 pixels (24 megapixels). The training dataset encompasses 400 publicly accessible images, while the test dataset comprises 200 private images.
 
+For person detection, the dataset includes bounding box annotations for both the training and test sets. Additionally, pixel-accurate annotations are provided for semantic segmentation tasks for the same sets. The dataset's complexity is streamlined to 20 distinct classes, as outlined in Table 1 below.
 
 ### Table 1: Semantic Classes of the Drone Dataset
 
