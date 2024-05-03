@@ -1,6 +1,3 @@
-# sementic_segmentation_drone_images
-
-
 # Semantic Drone Dataset Segmentation using U-Net
 
 This repository contains an implementation of the U-Net architecture for semantic segmentation of drone images from the Semantic Drone Dataset. The project aims to segment various classes such as buildings, roads, trees, and vehicles from aerial images.
