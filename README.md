@@ -12,7 +12,7 @@ The dataset can be obtained from the following link:
 
 [Semantic Drone Dataset](https://www.kaggle.com/datasets/bulentsiyah/semantic-drone-dataset)
 
-The Semantic Drone Dataset focuses on enhancing the safety of autonomous drone navigation and landing procedures by emphasizing semantic comprehension of urban environments. The dataset comprises imagery showcasing over 20 houses captured from a bird's eye view at altitudes ranging from 5 to 30 meters above ground level. Images are obtained using a high-resolution camera, yielding a size of 6000x4000 pixels (24 megapixels). The dataset encompasses 1600 images.
+The Semantic Drone Dataset focuses on enhancing the safety of autonomous drone navigation and landing procedures by emphasizing semantic comprehension of urban environments. The dataset comprises imagery showcasing over 20 houses captured from a bird's eye view at altitudes ranging from 5 to 30 meters above ground level. Images are obtained using a high-resolution camera, yielding a size of 6000x4000 pixels (24 megapixels).
 
 For person detection, the dataset includes bounding box annotations for both the training and test sets. Additionally, pixel-accurate annotations are provided for semantic segmentation tasks for the same sets. The dataset's complexity is streamlined to 23 distinct classes, as outlined in Table 1 below.
 
