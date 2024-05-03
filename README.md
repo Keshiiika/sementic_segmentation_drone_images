@@ -66,7 +66,17 @@ cd semantic-segmentation-drone-images
 
 ## Model Architecture
 
-The U-Net architecture consists of an encoder and a decoder, with skip connections between the encoder and decoder layers. The encoder downsamples the input image, while the decoder upsamples the feature maps to produce the segmentation masks.
+The U-Net architecture was used for this project, which is a popular choice for image segmentation tasks. The model consists of an encoder-decoder structure with skip connections between the encoder and decoder paths. The encoder path captures the context and spatial information from the input image, while the decoder path generates the segmentation masks.
+
+The U-Net model was built using TensorFlow and Keras, with the following key components:
+
+- *Encoder*: The encoder path consists of a series of convolutional blocks, each followed by batch normalization, ReLU activation, and max pooling layers. The number of filters increases as the depth increases, allowing the model to capture more complex features.
+
+- *Bridge*: The bridge connects the encoder and decoder paths without downsampling.
+
+- *Decoder*: The decoder path consists of upsampling layers followed by concatenation with the corresponding encoder features (skip connections). This helps the model retain spatial information and localization details.
+
+- *Output Layer*: The final layer uses a 1x1 convolution with softmax activation to produce the segmentation mask with the desired number of classes.
 
 The model architecture can be customized by modifying the number of filters and layers in the build_unet function.
 
