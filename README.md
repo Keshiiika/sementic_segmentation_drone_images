@@ -10,7 +10,7 @@ In semantic segmentation, the anticipated output transcends mere labels and boun
 
 The dataset can be obtained from the following link:
 
-[Semantic Drone Dataset](http://dronedataset.icg.tugraz.at/)
+[Semantic Drone Dataset](https://www.kaggle.com/datasets/bulentsiyah/semantic-drone-dataset)
 
 The Semantic Drone Dataset focuses on enhancing the safety of autonomous drone navigation and landing procedures by emphasizing semantic comprehension of urban environments. The dataset comprises imagery showcasing over 20 houses captured from a bird's eye view at altitudes ranging from 5 to 30 meters above ground level. Images are obtained using a high-resolution camera, yielding a size of 6000x4000 pixels (24 megapixels). The training dataset encompasses 400 publicly accessible images, while the test dataset comprises 200 private images.
 
